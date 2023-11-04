@@ -36,8 +36,8 @@ version = 1
 # version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
-# comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, Kivy==2.2.1, kivy-deps.angle==0.3.3, kivy-deps.glew==0.3.1, kivy-deps.gstreamer-dev==0.3.3, kivy-deps.sdl2==0.6.0, Kivy-Garden==0.1.5, kivymd==1.1.1, Pillow==9.4.0
+# comma separated e.g. requirements = sqlite3,kivy python3, Kivy==2.2.1, kivy-deps.angle==0.3.3, kivy-deps.glew==0.3.1, kivy-deps.gstreamer-dev==0.3.3, kivy-deps.sdl2==0.6.0, Kivy-Garden==0.1.5, kivymd==1.1.1, Pillow==9.4.0
+requirements = python3, Kivy, kivymd, pillow
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -66,7 +66,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.2.1
+osx.kivy_version = 1.9.1
 
 #
 # Android specific
