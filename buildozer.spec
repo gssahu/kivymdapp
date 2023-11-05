@@ -42,7 +42,7 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,hostpython=3.6.7,kivy, kivymd
+requirements = python3,hostpython=3.8,kivy==2.2.1, kivymd==1.1.1
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -112,7 +112,7 @@ fullscreen = 0
 #android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-android.minapi = 20
+android.minapi = 21
 
 # (int) Android SDK version to use
 #android.sdk = 20
@@ -121,7 +121,7 @@ android.minapi = 20
 android.ndk = 25b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
-android.ndk_api = 20
+android.ndk_api = 21
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path =
